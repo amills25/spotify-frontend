@@ -38,8 +38,8 @@ function NowPlaying({ song }) {
         {/* Could also make a {song.album.art} here instead of the following icon */}
         <MusicalNoteIcon className="h-12 w-12 border-2 rounded-md" />
         <div className="flex flex-col items-center px-4">
-          <p className="font-bold">{song?.name || "Calling Baton Rouge"}</p>
-          <p>{song?.artist.name || "Garth Brooks"}</p>
+          <p className="font-bold">{song?.name || "Hey Jude"}</p>
+          <p>{song?.artist.name || "Beatles"}</p>
         </div>
         <div className="flex items-center space-x-2 px-2">
           <HeartIcon className="h-6 w-6" />
